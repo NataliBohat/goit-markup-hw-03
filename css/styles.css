@@ -1,0 +1,178 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --acsent-text-color: #2196f3;
+  --slogan-text-color: #ffffff;
+  --page-color: #2f303a;
+  --aside-text-color: #e5e5e5;
+  --box-color: #f5f4fa;
+  --subtitle-text-color: #000000;
+  --contact-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  background-color: var(--slogan-text-color);
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/*Секція хедер*/
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-link {
+  color: var(--primary-text-color);
+}
+
+.current {
+  color: var(--acsent-text-color);
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--acsent-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--acsent-text-color);
+}
+.header-contact {
+  color: var(--secondary-text-color);
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--acsent-text-color);
+}
+.header-accent {
+  color: var(--subtitle-text-color);
+}
+/* герой*/
+.hero {
+  background-color: var(--page-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.34;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--slogan-text-color);
+}
+.hero-button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--slogan-text-color);
+  background: var(--acsent-text-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--acsent-text-color);
+}
+/*Секція про нас*/
+.content,
+.main {
+  background-color: var(--slogan-text-color);
+}
+.content-title {
+  line-height: 1.7;
+  color: var(--secondary-text-color);
+}
+.content-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+/*Чем мы занимаемся*/
+.main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+/*Наша команда*/
+.user {
+  background: var(--box-color);
+}
+.user-list-itm {
+  background: var(--slogan-text-color);
+}
+.user-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.uppertitle {
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--secondary-text-color);
+}
+
+/*Footer*/
+.footer {
+  background: var(--page-color);
+}
+.footer-nav {
+  font-style: normal;
+  line-height: 1.7;
+  color: var(--slogan-text-color);
+}
+.footer-contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--contact-text-color);
+}
+.footer-accen {
+  color: var(--slogan-text-color);
+}
+
+/* Rectangle*/
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--acsent-text-color);
+  color: var(--slogan-text-color);
+}
+/* img */
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
