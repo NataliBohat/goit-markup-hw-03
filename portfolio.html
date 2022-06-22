@@ -14,115 +14,109 @@
   <body>
     <!--Секція хедер-->
     <header class="header">
-        <nav>
-          <a class="header-logo link" href="index.html" lang="ru">
-            Web<span class="header-accent link">Studio</span></a>
-            <ul class="link">
-              <li class="list">
-                <a class="header-link" href="index.html"
-                  >Студия</a
-                >
-              </li>
-              <li class="list">
-                <a  class="header-current current" href="portfolio.html"
-                  >Портфолио</a
-                >
-              </li>
-              <li  class="list">
-                <a class="header-link" href="https://github.com/NataliBohat/goit-markup-hw-01."
-                  >Контакты</a
-                >
-              </li>
-            </ul>
-          </nav>
-          <ul class="link">
-            <li class="list" >
-                <a class="header-contact" href="info@devstudio.com" lang="en">info@devstudio.com</a></li>
-              <li class="list">
-                <a class="header-contact" href="tel:+38 096 111 11 11"
-                  >+38 096 111 11 11</a
-                >
-              </li>
-          </ul>
-      </header>
+      <nav class="container main-nav">
+        <a class="header-logo link" href="index.html" lang="ru">
+          Web<span class="header-accent link">Studio</span></a>
+          <ul class="site-nav list">
+            <li class="item">
+            <a class="header-link link" href="index.html">Студия</a>
+            </li>
+            <li class="item"><a  class="header-link link current" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="item">
+              <a class="header-link link" href="https://github.com/NataliBohat/goit-markup-hw-01.">Контакты</a>
+            </li>
+        </ul>
+      <ul class="auth-nav list" >
+        <li class="item"><a class="header-contact link" href="info@devstudio.com" lang="en">info@devstudio.com</a></li>
+        <li class="item"><a class="header-contact link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+      </ul>
+    </nav>
+    </header>
       <main>
-        <section>
+        <section class="section">
           <h1 hidden>Основна</h1>
           <!-- Rectangle-->
-           <ul>
-            <li> <button class="button current ">Все</button></li>
-            <li><button class="button current">Веб-сайты</button></li>
-            <li><button class="button current">Приложения</button></li>
-            <li> <button class="button current">Дизайн</button></li>
-            <li> <button class="button current">Маркетинг</button></li>
+          <div class="container">
+            <ul class="button-item list">
+            <li class="button-hero"><button class="button current link">Все</button></li>
+            <li  class="button-hero"><button class="button current link">Веб-сайты</button></li>
+            <li  class="button-hero"><button class="button current link">Приложения</button></li>
+            <li  class="button-hero"><button class="button current link">Дизайн</button></li>
+            <li  class="button-hero"><button class="button current link">Маркетинг</button></li>
            </ul>
+          </div>
+           </section>
           <!--img-->
-          <ul class="list">
-          <li class="link">
+          <section class="section">
+          <div class="container"> 
+            <ul class="feature-list list">
+            <li class="flex-element link">
             <img src="./portfolio img/teh.jpg" alt="tehno" width="370" />
             <h2 class="title">Технокряк</h2>
             <p class="uppertitle">Веб-сайт</p>
           </li>
-          <li class="link">
+          <li class="flex-element link">
             <img src="./portfolio img/poster.jpg" alt="poster" width="370" />
             <h2 class="title">Постер New Orlean vs Golden Star</h2>
             <p class="uppertitle">Дизайн</p>
           </li>
-          <li class="link">
+          <li class="flex-element link">
             <img src="./portfolio img/seafood.jpg" alt="seafood" width="370" />
             <h2 class="title">Ресторан Seafood</h2>
             <p class="uppertitle">Приложение</p>
           </li>
-          <li class="link">
+          <li class="flex-element link">
             <img src="./portfolio img/prime.jpg" alt="prime" width="370" />
             <h2 class="title">Проект Prime</h2>
             <p class="uppertitle">Маркетинг</p>
           </li>
-          <li class="link">
+          <li class="flex-element link">
             <img src="./portfolio img/boxes.jpg" alt="boxes" width="370" />
             <h2 class="title">Проект Boxes</h2>
             <p class="uppertitle">Приложение</p>
           </li>
-          <li class="link">
+          <li class="flex-element link">
             <img src="./portfolio img/borders.jpg" alt="tehno" width="370" />
             <h2 class="title">Технокряк</h2>
             <p class="uppertitle">Веб-сайт</p>
           </li>
-          <li class="link">
+          <li class="flex-element link">
             <img src="./portfolio img/edition.jpg" alt="borders" width="370" />
             <h2 class="title">Inspiration has no Borders</h2>
             <p class="uppertitle">Веб-сайт</p>
           </li>
-          <li class="link">
+          <li class="flex-element link">
             <img src="./portfolio img/lab.jpg" alt="edition" width="370" />
             <h2 class="title">Издание Limited Edition</h2>
             <p class="uppertitle">Дизайн</p>
           </li>
-          <li class="link">
+          <li class="flex-element link">
             <img src="./portfolio img/busines.jpg" alt="lab" width="370" />
             <h2 class="title">Проект LAB</h2>
             <p class="uppertitle">Маркетинг</p>
           </li>
-          </ul>
+          </ul></div>
         </section>
       </main>
       <footer class="footer">
-        <a class="header-logo link" href="https://github.com/NataliBohat/goit-markup-hw-01."
-        lang="ru">Web<span class="footer-accen link">Studio</span></a
-        >
-      <address>
-        <ul>
-          <li class="list">
-            <a class="footer-nav link"
-              href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
-              target="_blank"
-              rel="noopener noreferrer"
-              >г.Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="list"><a class="footer-contact link" href="mailto:info@devstudio.com">info@example.com</a></li>
-          <li class="list"><a class="footer-contact link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+        <div class="container"> 
+          <a class="header-logo link" href="https://github.com/NataliBohat/goit-markup-hw-01."
+          lang="ru">Web<span class="footer-accen link">Studio</span></a
+          >
+        <address>
+          <ul class="footer-item">
+            <li class="footer-list list">
+              <a class="footer-nav link"
+                href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
+                target="_blank"
+                rel="noopener noreferrer"
+                >г.Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li class="footer-list list"><a class="footer-contact link" href="mailto:info@devstudio.com">info@example.com</a></li>
+            <li class="footer-list list"><a class="footer-contact link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
       </footer>
   </body>
