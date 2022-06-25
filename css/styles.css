@@ -9,8 +9,9 @@
   --subtitle-text-color: #000000;
   --contact-text-color: rgba(255, 255, 255, 0.6);
   --title-hover-color: #188CE8;
+  --fetcher-title-color:  #EEEEEE;
+  --header-border-colors: #ECECEC;
 }
-
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -61,6 +62,7 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--header-border-colors);
 }
 .site-nav{
 display: flex;
@@ -132,6 +134,10 @@ letter-spacing: 0.06em;
 color: var(--slogan-text-color);
 }
 .hero-button {
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
+
 font-family: "Roboto";
 font-weight: 700;
 font-size: 16px;
@@ -141,11 +147,12 @@ text-decoration: none;
 text-align: center;
 cursor: pointer;
 color: var(--slogan-text-color);
-background: var(--acsent-text-color);
+background-color: var(--acsent-text-color);
 }
+
 .hero-button:hover,
 .hero-button:focus {
-background: var(--title-hover-color);
+background-color: var(--title-hover-color);
 }
 /*Секція про нас*/
 .main {
@@ -251,8 +258,11 @@ padding-top: 0;
   margin-bottom: 0;
 } 
 .feature-title{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 20px 24px;
+  border-left: 110px;
+  border-right: 110px;
+  border-bottom: 370px;
+  border: 1px solid var(--fetcher-title-color);
 }
 /*Footer*/
 .footer {
@@ -292,16 +302,20 @@ padding-top: 0;
 
 /* Rectangle*/
 .button {
-  border-radius: 6px;
   padding: 6px 22px;
-  min-width: 145px;
+  border: none;
+  border-radius: 4px;
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  color: var(--primary-text-color);
-  text-decoration: none;
   text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: var(--primary-text-color);
+  background-color: var(--box-color);
+
   cursor: pointer;
 }
 .button-item{
